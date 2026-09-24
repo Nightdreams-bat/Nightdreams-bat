@@ -1,31 +1,60 @@
 <img src="assets/banner.png" alt="NIGHT: a student building with AI to create useful products and solve real problems" width="100%">
 
-I'm an AI enthusiast. I don't write my apps line by line. I build them by directing AI: I
-describe the problem, shape the plan, review what comes back, and push until it works.
+Hi, I'm Night. I'm a student, and I build software with AI.
 
-For the last few years, getting better at that has been one of my real passions: writing
-clearer prompts, giving models the right context, breaking a big job into steps an agent
-can finish, and checking the result instead of trusting it. I'm still learning, and this
-profile is a record of what I've built so far.
+I don't write most of the code by hand. I describe what I want, plan it with the model,
+read what it gives back, and test it until it works. I've been doing this on real projects
+for a few years now, and the part I keep getting better at is knowing what to ask for and
+when not to trust the answer.
 
-## Selected work
+## Projects
 
-| Project | What it is |
-|---|---|
-| **[Kairo](https://github.com/Nightdreams-bat/kairo)** | A local AI cold-outreach app: cold email, follow-ups, call reminders and AI reply handling. Nothing sends without approval. Ships as a Windows app. |
-| **[supermarket-deals](https://github.com/Nightdreams-bat/supermarket-deals)** | Collects about 1,100 supermarket promos every morning, ranks them against a shopping list, and sends a Telegram digest. |
-| **[pdf-craft](https://github.com/Nightdreams-bat/pdf-craft)** | A Claude Code skill that makes AI-generated PDFs look designed instead of defaulted. |
-| **[claude-code-kit](https://github.com/Nightdreams-bat/claude-code-kit)** | My full AI coding setup: skills, commands, subagents, and a way to run several agents side by side. |
-| **[claude-skills](https://github.com/Nightdreams-bat/claude-skills)** | Seventeen drop-in Claude Code skills for teaching, auditing and shipping safely. |
-| **[Trade Journal](https://github.com/mateitodirel/TradeJournal)** | An offline desktop trading journal with drawdown analysis and prop-firm payout tools. *Co-developed.* |
+### [Kairo](https://github.com/Nightdreams-bat/kairo)
 
-## What I'm working on
+Cold email is mostly repetitive work: send, wait, follow up, read the replies, book a call.
+Kairo handles that from a spreadsheet of leads. It sends the first email and up to three
+follow-ups, and Claude sorts each reply into yes, no, maybe or question and drafts an answer.
+Nothing goes out until you click approve. It installs on Windows like a normal app and
+doesn't need a server.
 
-- **Better prompts.** Clear goals, clear limits, and a definition of "done" in every request.
-- **Context over cleverness.** Most bad AI output comes from missing context, not weak models.
-- **Agents that ask first.** AI drafts, a human approves, nothing irreversible happens silently.
-- **Proof over claims.** Tests, real screenshots, and a secret scan before anything goes public.
+### [supermarket-deals](https://github.com/Nightdreams-bat/supermarket-deals)
 
----
+I didn't want to flip through four supermarket leaflets every week. This script checks about
+1,100 offers from Lidl, Hofer, Spar and Norma in Linz each morning and sends a Telegram
+message with whatever on my shopping list is discounted, plus the biggest price cuts. When
+the site it first used shut down, I moved it to the JSON API behind another deals site.
 
-<sub>Questions or ideas about a project? Open an issue on its repo.</sub>
+### [pdf-craft](https://github.com/Nightdreams-bat/pdf-craft)
+
+PDFs made by AI tend to look the same: Arial, a centered bold title, bullet points
+everywhere. This Claude Code skill makes the agent pick a layout and fonts before it writes
+anything, and it keeps a log so the next document gets a different style. It also checks the
+finished file and fails if a font quietly fell back to Times.
+
+### [claude-code-kit](https://github.com/Nightdreams-bat/claude-code-kit)
+
+The setup I use for AI coding every day: 25 skills, 25 slash commands and 7 subagents for
+Claude Code, plus a small script that runs several agents at once, each in its own git
+worktree. Most of the ideas come from people who shared their own workflows, and they're
+credited in the repo.
+
+### [claude-skills](https://github.com/Nightdreams-bat/claude-skills)
+
+17 Claude Code skills you can copy one folder at a time. The ones I wrote include a quiz
+tutor that runs on an Obsidian vault and a check that looks for leaked API keys before you
+push.
+
+### [Trade Journal](https://github.com/mateitodirel/TradeJournal)
+
+An offline desktop journal for traders, built together with
+[@mateitodirel](https://github.com/mateitodirel). It tracks drawdowns and prop-firm payouts.
+
+## What I'm learning right now
+
+- Writing prompts that say what "done" looks like, so the model knows when to stop.
+- Giving the model the right context before asking it for anything.
+- Having a second model review the first one's work before I merge it.
+- Checking the result myself with tests and screenshots, and scanning for secrets before
+  anything goes public.
+
+If something in one of these repos is broken or unclear, open an issue.
