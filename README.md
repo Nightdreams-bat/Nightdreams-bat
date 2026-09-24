@@ -12,27 +12,27 @@ context fills up.
 
 <a href="https://github.com/Nightdreams-bat/kairo"><img src="assets/kairo.png" alt="Kairo" width="100%"></a>
 
-| | |
-|---|---|
-| **Problem** | Cold outreach is hours of sending, following up, reading replies and booking calls, and most tools want your lead list on their server. |
-| **Approach** | A Windows app that reads leads from an Excel file and sends through your own Gmail. Claude only sorts the replies and drafts answers. Nothing goes out until you click approve. |
-| **Result** | A one-click installer, with 400+ tests that run on every push. |
+<table>
+<tr><td><b>Problem</b></td><td>Cold outreach is hours of sending, following up, reading replies and booking calls, and most tools want your lead list on their server.</td></tr>
+<tr><td><b>Approach</b></td><td>A Windows app that reads leads from an Excel file and sends through your own Gmail. Claude only sorts the replies and drafts answers. Nothing goes out until you click approve.</td></tr>
+<tr><td><b>Result</b></td><td>A one-click installer, with 400+ tests that run on every push.</td></tr>
+</table>
 
 <a href="https://github.com/Nightdreams-bat/trade-journal"><img src="assets/trade-journal.png" alt="Trade Journal" width="100%"></a>
 
-| | |
-|---|---|
-| **Problem** | Prop-firm traders need to know why they're losing and when they can get paid. Spreadsheets can't answer that, and most journals upload your trades to a subscription service. |
-| **Approach** | An offline desktop app with one local database. It splits losses into drawdown episodes, replays your real trading days against Apex and Lucid rules, and flags when you're payout-eligible. |
-| **Result** | Version 1.3.3, built with [@mateitodirel](https://github.com/mateitodirel). |
+<table>
+<tr><td><b>Problem</b></td><td>Prop-firm traders need to know why they're losing and when they can get paid. Spreadsheets can't answer that, and most journals upload your trades to a subscription service.</td></tr>
+<tr><td><b>Approach</b></td><td>An offline desktop app with one local database. It splits losses into drawdown episodes, replays your real trading days against Apex and Lucid rules, and flags when you're payout-eligible.</td></tr>
+<tr><td><b>Result</b></td><td>Version 1.3.3, built with <a href="https://github.com/mateitodirel">@mateitodirel</a>.</td></tr>
+</table>
 
 <a href="https://github.com/Nightdreams-bat/supermarket-deals"><img src="assets/supermarket-deals.png" alt="supermarket-deals" width="100%"></a>
 
-| | |
-|---|---|
-| **Problem** | Four supermarket leaflets a week, and the deals site I planned to use had shut down. |
-| **Approach** | I found the API behind another deals site, wrote the plan as five decision records, had one model build it and a different model review it. The review caught five real bugs, including a search that missed half of each store's offers. |
-| **Result** | A Telegram message every morning with the deals on my shopping list, out of about 1,100 offers. |
+<table>
+<tr><td><b>Problem</b></td><td>Four supermarket leaflets a week, and the deals site I planned to use had shut down.</td></tr>
+<tr><td><b>Approach</b></td><td>I found the API behind another deals site, wrote the plan as five decision records, had one model build it and a different model review it. The review caught five real bugs, including a search that missed half of each store's offers.</td></tr>
+<tr><td><b>Result</b></td><td>A Telegram message every morning with the deals on my shopping list, out of about 1,100 offers.</td></tr>
+</table>
 
 **Tools for AI coding:**
 [pdf-craft](https://github.com/Nightdreams-bat/pdf-craft) makes AI-generated PDFs look designed.
