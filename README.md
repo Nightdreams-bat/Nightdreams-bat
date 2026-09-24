@@ -1,11 +1,12 @@
 <img src="assets/banner.png" alt="NIGHT: a student building with AI to create useful products and solve real problems" width="100%">
 
-Hi, I'm Night. I'm a student, and I build software with AI.
+Hi, I'm Night. I'm a student who builds software with AI.
 
-I don't write most of the code by hand. I describe what I want, plan it with the model,
-read what it gives back, and test it until it works. I've been doing this on real projects
-for a few years now, and the part I keep getting better at is knowing what to ask for and
-when not to trust the answer.
+I've been using AI for about four years. At first I just used it. Then I wanted to know why it
+works when it works and why it fails when it fails, and I've been digging into that ever since:
+how prompts shape the output, which models are good at which jobs, what benchmarks tell you and
+what they leave out, how much reasoning effort a task actually needs, and why a model gets worse
+as its context fills up. The projects below are where I test all of that on real problems.
 
 ## Projects
 
@@ -49,12 +50,31 @@ push.
 An offline desktop journal for traders, built together with
 [@mateitodirel](https://github.com/mateitodirel). It tracks drawdowns and prop-firm payouts.
 
-## What I'm learning right now
+## What I've learned so far
 
-- Writing prompts that say what "done" looks like, so the model knows when to stop.
-- Giving the model the right context before asking it for anything.
-- Having a second model review the first one's work before I merge it.
-- Checking the result myself with tests and screenshots, and scanning for secrets before
-  anything goes public.
+These are the ideas that changed how I work. I keep notes on each one in my study vault.
+
+- A model's useful context is much smaller than its advertised window. Accuracy drops long
+  before the limit, so I keep sessions short, hand exploration to subagents, and restart from
+  written notes instead of dragging a long chat along.
+- Instructions that load on every turn cost attention on every turn. My CLAUDE.md stays short.
+  Anything situational goes in its own file with a one-line pointer, or in a skill that only
+  loads when it's needed.
+- Pick the model and the effort level for each task. Bulk mechanical work goes to a small, fast
+  model. Architecture and hard bugs get the strongest model at high effort. There's no magic
+  "think harder" phrase; effort is a setting.
+- Agents are reliable when there's a clear check to hit: a failing test, a build, a benchmark.
+  They're unreliable at anything that depends on context only I have, and at deciding when
+  they're done. So I write down what "done" means before any code gets written.
+- Code should be reviewed by a different model than the one that wrote it. A fresh session of
+  the same model drops its bias toward its own work, but it keeps the same blind spots.
+- Code can be regenerated from a clear spec. The reasons behind a decision can't be regenerated
+  from anything. So I keep specs and decision records, and treat the code as the cheaper of
+  the two.
+- Guard actions by whether they can be undone, not by how big they look. Deleting
+  `node_modules` is fine. A force-push isn't.
+
+Right now I'm working through Python fundamentals and the math behind machine learning,
+because I want to be able to read and judge the code my tools write.
 
 If something in one of these repos is broken or unclear, open an issue.
