@@ -23,7 +23,7 @@ context fills up.
 <table>
 <tr><td><b>Problem</b></td><td>Prop-firm traders need to know why they're losing and when they can get paid. Spreadsheets can't answer that, and most journals upload your trades to a subscription service.</td></tr>
 <tr><td><b>Approach</b></td><td>An offline desktop app with one local database. It splits losses into drawdown episodes, replays your real trading days against Apex and Lucid rules, and flags when you're payout-eligible.</td></tr>
-<tr><td><b>Result</b></td><td>Version 1.3.3, built with <a href="https://github.com/mateitodirel">@mateitodirel</a>.</td></tr>
+<tr><td><b>Result</b></td><td>A Windows installer, now on version 1.3.3, that works fully offline.</td></tr>
 </table>
 
 <a href="https://github.com/Nightdreams-bat/supermarket-deals"><img src="assets/supermarket-deals.png" alt="supermarket-deals" width="100%"></a>
