@@ -1,4 +1,4 @@
-<img src="assets/banner.png" alt="NIGHT: AI enthusiast and prompt-driven builder" width="100%">
+<img src="assets/banner.png" alt="NIGHT: a student building with AI to create useful products and solve real problems" width="100%">
 
 I'm an AI enthusiast. I don't write my apps line by line. I build them by directing AI: I
 describe the problem, shape the plan, review what comes back, and push until it works.
