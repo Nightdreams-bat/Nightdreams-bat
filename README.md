@@ -10,7 +10,7 @@ context fills up.
 
 ## Projects
 
-<a href="https://github.com/Nightdreams-bat/kairo"><img src="assets/kairo.png" alt="Kairo" width="100%"></a>
+<a href="https://github.com/Nightdreams-bat/kairo"><img src="assets/kairo-banner.png" alt="Kairo" width="100%"></a>
 
 <table>
 <tr><td><b>Problem</b></td><td>Cold outreach is hours of sending, following up, reading replies and booking calls, and most tools want your lead list on their server.</td></tr>
@@ -18,7 +18,7 @@ context fills up.
 <tr><td><b>Result</b></td><td>A one-click installer, with 400+ tests that run on every push.</td></tr>
 </table>
 
-<a href="https://github.com/Nightdreams-bat/trade-journal"><img src="assets/trade-journal.png" alt="Trade Journal" width="100%"></a>
+<a href="https://github.com/Nightdreams-bat/trade-journal"><img src="assets/trade-journal-banner.png" alt="Trade Journal" width="100%"></a>
 
 <table>
 <tr><td><b>Problem</b></td><td>Prop-firm traders need to know why they're losing and when they can get paid. Spreadsheets can't answer that, and most journals upload your trades to a subscription service.</td></tr>
