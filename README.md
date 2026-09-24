@@ -39,4 +39,4 @@ every action that matters**, and use AI only where it earns its place.
 
 ---
 
-<sub>Open to freelance automation and AI-tooling work. Open an issue on any repo or reach out through GitHub.</sub>
+<sub>Questions or ideas about any project? Open an issue on its repo.</sub>
