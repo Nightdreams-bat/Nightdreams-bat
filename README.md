@@ -1,6 +1,6 @@
 <p><picture>
   <source media="(max-width: 600px)" srcset="assets/banner_mobile.png">
-  <img src="assets/banner.png" alt="Night. Dream at night. Prove it by day." width="100%">
+  <img src="assets/banner.png" alt="Dream at night. Prove it by day. A halftone sun rising over water." width="100%">
 </picture></p>
 
 I'm Night. I build AI agents, test them, and open-source them as Nightdreams.
