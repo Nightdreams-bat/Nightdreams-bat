@@ -22,4 +22,4 @@ Lab notes on X: [@nightdreamsbat](https://x.com/nightdreamsbat) · Latest: [my C
 ### Also built
 
 - **[zpd-learning](https://github.com/Nightdreams-bat/zpd-learning)** · 5 skills that teach at the edge of what you know. An adaptive test finds the edge, an Obsidian vault keeps the learner model, and `/tutor` drills the gaps.
-- **[supermarket-deals](https://github.com/Nightdreams-bat/supermarket-deals)** · About 1,100 offers from four local supermarkets, checked every morning at 08:00. The ones on my shopping list go to Telegram.
+- **[supermarket-deals](https://github.com/Nightdreams-bat/supermarket-deals)** · A scheduled job checks four local supermarkets (1,027 to 1,743 offers per run so far) and sends the ones on my shopping list to Telegram.
